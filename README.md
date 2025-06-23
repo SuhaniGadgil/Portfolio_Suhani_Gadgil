@@ -1,4 +1,4 @@
-# FIT3077 Repository
+# Santorini Game Repository
 **Individual:** Suhani Gadgil
 
 **Project Overview:**
@@ -7,12 +7,14 @@ This is a Java-based digital implementation of the popular board game _Santorini
 
 Players can:
 - Use Zeus's god power card
+- Use Demeter's god power card
+- Use Artemis's god power card
 
-The gama has:
-- A count-down timer
-- Human Value of forgiveness
+The game has:
+- A countdown timer
+- Human Value of Forgiveness
 
-All files can be found in their relevant folders (Sprint 1, Sprint 2, sgad0010).
+All files can be found in their relevant folders (Sprint 1, Sprint 2, Sprint 3).
 Diagrams are placed in their respective folders, with previous versions included to show work progress.
 For more details on each member's contribution, check **Sprint Contribution Log** under **Wiki**
 
@@ -26,7 +28,7 @@ Sprint 1 Documentation: [Google Doc](https://docs.google.com/document/d/1ueivzpz
 
 Sprint 2 Documentation: [Google Doc](https://docs.google.com/document/d/1olCLQfuHbGg0xbHAjaQB6Hh7fWdD9QJukTCYbWisKos/edit?usp=sharing)
 
-Sprint 3 Documenation: https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing 
+Sprint 3 Documentation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing)
 
 Zoom Meeting: [Recurring Meeting](https://monash.zoom.us/j/83621261512?pwd=pwfTM1QA86oeDddWBQieH6k6Cf8L3z.1)
 
