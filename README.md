@@ -1,4 +1,4 @@
-# FIT3077 Repository
+# Santorini Game Repository
 **Individual:** Suhani Gadgil
 
 **Project Overview:**
@@ -28,7 +28,11 @@ Sprint 1 Documentation: [Google Doc](https://docs.google.com/document/d/1ueivzpz
 
 Sprint 2 Documentation: [Google Doc](https://docs.google.com/document/d/1olCLQfuHbGg0xbHAjaQB6Hh7fWdD9QJukTCYbWisKos/edit?usp=sharing)
 
+<<<<<<< HEAD
 Sprint 3 Documenation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing) 
+=======
+Sprint 3 Documentation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing)
+>>>>>>> d1035ad7a1e5a691a00cec4bbd0fabb970f5dc5a
 
 Figma: [Lo-fi Prototype](https://www.figma.com/files/team/1483710207216269383/project/353727945/Team-project?fuid=1343728688670418892)
 </details>
