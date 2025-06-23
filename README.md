@@ -3,36 +3,23 @@
 
 **Project Overview:**
 
-This is a Java-based digital implementation of the popular board game _Santorini_. The game supports 2 players and implements Edition Two rules, including God powers such as Artemis, Demeter and Zeus. The user interface is built with Java Swing and AWT, providing a clear and interactive experience.
+Over the past three years, I have undertaken a diverse range of projects that span user experience design, software development, animation, and branding. My portfolio demonstrates both creative and technical competencies developed through academic and personal work.
 
-Players can:
-- Use Zeus's god power card
-- Use Demeter's god power card
-- Use Artemis's god power card
+UX Design Projects
+I’ve led the end-to-end design of several user-centred applications, including The Rubbish App and Prep’d App, which address real-world challenges like household task management and cooking class bookings. Both projects involved user research, usability testing, and prototyping with accessibility in mind.
 
-The game has:
-- A countdown timer
-- Human Value of Forgiveness
+Development Projects
+From front-end development of the DENILIQUIN_FLORIST_website to building an Event Management Android Application, I’ve applied programming and interaction design skills to deliver functional digital products. My SantoriniGame project demonstrates object-oriented principles and game logic implementation using Java.
 
-All files can be found in their relevant folders (Sprint 1, Sprint 2, Sprint 3).
-Diagrams are placed in their respective folders, with previous versions included to show work progress.
-For more details on each member's contribution, check **Sprint Contribution Log** under **Wiki**
+Branding & Identity Design
+In Identity – Once A Year, I explored the creation of a cultural food festival identity system, integrating type, colour theory, and visual storytelling. This was supported by thorough rationale and application mockups.
 
-<details><summary>Useful Links</summary>
+Typography & Publication Design
+Through Motion Animation, Publication, and Typography Publication, I developed a deep understanding of typographic principles, grid systems, and dynamic layouts. These projects helped me refine visual hierarchy and communication design techniques.
 
-Git: [GitLab Repo](https://git.infotech.monash.edu/FIT3077/fit3077-s1-2025/assignment-groups/CL_Tuesday04pm_Team050/project)
+Usability & Systems Prototyping
+My work in Systems Development and UX Project NOOK showcases my experience with iterative prototyping and usability evaluation methods. These were grounded in ISO standards and design heuristics, demonstrating both analytical and practical skills.
 
-Trello: [Project Management Board](https://trello.com/invite/b/67cfc992bc30c8f7ad47f22f/ATTI26350c19ade64ce503f12d4f662f0a109270721D/software-eng-group)
+Each project reflects my evolving capabilities across disciplines. I take pride in crafting purposeful and well-researched outcomes, and I’m eager to apply these experiences in industry settings where design and technology intersect.
 
-Sprint 1 Documentation: [Google Doc](https://docs.google.com/document/d/1ueivzpzC8rv-LfbchjPxMD_FFXVgMueliBv5vXmAHCY/edit?usp=sharing)
-
-Sprint 2 Documentation: [Google Doc](https://docs.google.com/document/d/1olCLQfuHbGg0xbHAjaQB6Hh7fWdD9QJukTCYbWisKos/edit?usp=sharing)
-
-<<<<<<< HEAD
-Sprint 3 Documenation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing) 
-=======
-Sprint 3 Documentation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing)
->>>>>>> d1035ad7a1e5a691a00cec4bbd0fabb970f5dc5a
-
-Figma: [Lo-fi Prototype](https://www.figma.com/files/team/1483710207216269383/project/353727945/Team-project?fuid=1343728688670418892)
-</details>
+Please have a look at each folder's READ ME file as they will give some insight into each project.
