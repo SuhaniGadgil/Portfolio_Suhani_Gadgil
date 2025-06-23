@@ -13,3 +13,4 @@ All files can be found in their relevant folders.
 
 Documentation: [Google Doc](https://docs.google.com/document/d/15KAcuPQAfdUmM_MxxrLAAtP-7yB0c69W6SBlHX07XCs/edit?usp=sharing)
 
+</details>
