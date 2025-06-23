@@ -30,7 +30,5 @@ Sprint 2 Documentation: [Google Doc](https://docs.google.com/document/d/1olCLQfu
 
 Sprint 3 Documentation: [Google Doc](https://docs.google.com/document/d/1tTxSqcCiSWwPwBrOVAvymn38XLr6dcGLGA0RlZ3ZbAA/edit?usp=sharing)
 
-Zoom Meeting: [Recurring Meeting](https://monash.zoom.us/j/83621261512?pwd=pwfTM1QA86oeDddWBQieH6k6Cf8L3z.1)
-
 Figma: [Lo-fi Prototype](https://www.figma.com/files/team/1483710207216269383/project/353727945/Team-project?fuid=1343728688670418892)
 </details>
