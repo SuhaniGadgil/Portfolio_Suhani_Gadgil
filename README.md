@@ -1,4 +1,4 @@
-# Santorini Game Repository
+# Suhani Gadgil's Portfolio
 **Individual:** Suhani Gadgil
 
 **Project Overview:**
