@@ -1,0 +1,674 @@
+/*
+
+Tooplate 2129 Crispy Kitchen
+
+https://www.tooplate.com/view/2129-crispy-kitchen
+
+*/
+
+
+/*---------------------------------------
+  CUSTOM PROPERTIES ( VARIABLES )             
+-----------------------------------------*/
+:root {
+  --white-color:                  #FFFFFF;
+  --primary-color:                #a61c00;
+  --secondary-color:              #a61c00;
+  --section-bg-color:             #F9F9F9;
+  --dark-color:                   #000000;
+  --title-color:                  #565758;
+  --news-title-color:             #292828;
+  --p-color:                      #717275;
+  --border-color:                 #eaeaea;
+  --border-radius-default:        .25rem;
+
+  --body-font-family:             'Times New Roman', sans-serif;
+
+  --h1-font-size:                 76px;
+  --h2-font-size:                 56px;
+  --h3-font-size:                 42px;
+  --h4-font-size:                 28px;
+  --h5-font-size:                 26px;
+  --h6-font-size:                 22px;
+
+  --p-font-size:                  18px;
+  --menu-font-size:               18px;
+  --category-font-size:           14px;
+
+  --font-weight-light:            300;
+  --font-weight-normal:           400;
+  --font-weight-semibold:         600;
+  --font-weight-bold:             700;
+}
+
+body {
+    background: var(--white-color);
+    font-family: var(--body-font-family);    
+    position: relative;
+}
+
+/*---------------------------------------
+  TYPOGRAPHY               
+-----------------------------------------*/
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--dark-color);
+  line-height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: var(--font-weight-semibold);
+}
+
+h1,
+h2 {
+  font-weight: var(--font-weight-bold);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+  line-height: normal;
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+p,
+.list .list-item {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  font-weight: var(--font-weight-light);
+}
+
+a, 
+button {
+  touch-action: manipulation;
+  transition: all 0.3s;
+}
+
+.form-label {
+  color: var(--p-color);
+  font-weight: var(--font-weight-semibold);
+}
+
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--primary-color);
+}
+
+::selection {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+::-moz-selection {
+  background: var(--primary-color);
+  color: var(--white-color);
+}
+
+.section-padding {
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+b,
+strong {
+  font-weight: var(--font-weight-bold);
+}
+
+
+/*---------------------------------------
+  CUSTOM BUTTON              
+-----------------------------------------*/
+.custom-btn {
+  border: 0;
+  color: var(--white-color);
+  font-size: var(--menu-font-size);
+  padding: 10px 35px;
+}
+
+
+/*---------------------------------------
+  NAVIGATION              
+-----------------------------------------*/
+.navbar {
+  background: var(--white-color);
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar-brand {
+  /* color: var(--dark-color); */
+  color: #86252f;
+  font-size: var(--h5-font-size);
+  font-weight: var(--font-weight-bold);
+  margin-right: 0;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+.navbar-expand-lg .nav-link {
+  color: var(--p-color);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--menu-font-size);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar-nav .nav-link.active, 
+.nav-link:focus, 
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.nav-link:focus {
+  color: var(--p-color);
+}
+
+.navbar-toggler {
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  margin: 0;
+  width: 30px;
+  height: 35px;
+  outline: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
+  background: transparent;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before,
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transition: top 300ms 50ms ease, -webkit-transform 300ms 350ms ease;
+  transition: top 300ms 50ms ease, transform 300ms 350ms ease;
+  transition: top 300ms 50ms ease, transform 300ms 350ms ease, -webkit-transform 300ms 350ms ease;
+  top: 0;
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
+  transform: rotate(45deg);
+}
+
+.navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
+  transform: rotate(-45deg);
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background: var(--dark-color);
+  transition: background 10ms 300ms ease;
+  display: block;
+  width: 30px;
+  height: 2px;
+  position: relative;
+}
+
+.navbar-toggler .navbar-toggler-icon:before,
+.navbar-toggler .navbar-toggler-icon:after {
+  transition: top 300ms 350ms ease, -webkit-transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, transform 300ms 50ms ease;
+  transition: top 300ms 350ms ease, transform 300ms 50ms ease, -webkit-transform 300ms 50ms ease;
+  position: absolute;
+  right: 0;
+  left: 0;
+  background: var(--dark-color);
+  width: 30px;
+  height: 2px;
+  content: '';
+}
+
+.navbar-toggler .navbar-toggler-icon:before {
+  top: -8px;
+}
+
+.navbar-toggler .navbar-toggler-icon:after {
+  top: 8px;
+}
+
+
+/*---------------------------------------
+  SITE HEADER              
+-----------------------------------------*/
+.site-header {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  text-align: center;
+  position: relative;
+}
+
+.site-header .container {
+  position: relative;
+  z-index: 2;
+}
+
+.site-designer-detail-header {
+  background: transparent;
+  text-align: left;
+   padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.site-about-header {
+  background-image: url('../images/header/briana-tozour-V_Nkf1E-vYA-unsplash.jpg');
+}
+
+.site-menu-header {
+  background-image: url('../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg');
+}
+
+.site-news-header {
+  background-image: url('../images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg');
+}
+
+.site-contact-header {
+  background-image: url('../images/header/rod-long-I79Pgmhmy5M-unsplash.jpg');
+}
+
+
+
+
+/*---------------------------------------
+  HERO              
+-----------------------------------------*/
+.hero {
+  position: relative;
+  overflow: hidden;
+  padding-top: 0;
+  padding-bottom: 32.542rem;
+}
+
+.hero .container {
+  position: absolute;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.custom-rose-background {
+  background-image: url('../images/rose-background.jpg');
+  position: absolute;
+  /* top: 100;
+  left: 100; */
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+
+
+
+
+
+
+/*---------------------------------------
+  MENU               
+-----------------------------------------*/
+.menu,
+.about,
+.news,
+.related-news,
+.newsletter,
+.comments {
+  background: var(--section-bg-color);
+}
+
+.popular-thumb {
+  position: relative;
+  overflow: hidden;
+}
+
+.menu-info {
+  padding: 20px 20px 30px 20px;
+}
+
+.menu-image {
+  display: block;
+}
+
+.popular-image-wrap {
+  position: relative;
+}
+
+.menu-tag {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 20px;
+}
+
+.newsletter-image {
+  border-radius: 100%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  max-width: 450px;
+  max-height: 450px;
+}
+
+
+
+/* --------------------------------------- 
+  ADDED JAVASCRIPT 
+-----------------------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #0c0304;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #0c0304;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+
+
+
+
+/*---------------------------------------
+  CUSTOM FORM            
+-----------------------------------------*/
+.custom-form .form-control {
+  margin-bottom: 20px;
+  padding: 14px 10px;
+  transition: all 0.3s;
+}
+
+.custom-form button[type="submit"] {
+  background: var(--dark-color);
+  border: 0;
+  color: var(--white-color);
+  text-transform: uppercase;
+}
+
+.custom-form button[type="submit"]:hover {
+  background: var(--primary-color);
+}
+
+
+/*---------------------------------------
+  SUBSCRIBE FORM            
+-----------------------------------------*/
+.subscribe-form .form-control {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+
+
+
+.BgImage {
+  background-image: url('../images/BgImage/BgImage.jpg'); 
+  /* background-color: #561000; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+}
+
+
+/*---------------------------------------
+  FOOTER              
+-----------------------------------------*/
+.site-footer {
+  background-color: #561000;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  position: relative;
+}
+
+.site-footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.site-footer .container {
+  position: relative;
+}
+
+.tooplate-mt30 {
+	margin-top: 30px;
+}
+.tooplate-mt60 {
+	margin-top: 60px;
+}
+
+.copyright-text {
+  font-size: var(--menu-font-size);
+}
+
+.tel-link {
+  color: var(--p-color);
+}
+
+.site-footer a:hover {
+  color: var(--white-color);
+}
+
+.site-footer a {
+  	color: #AAA;;
+}
+
+.site-footer p {
+	color: #AAA;
+}
+
+
+/*---------------------------------------
+  SOCIAL ICON               
+-----------------------------------------*/
+.social-icon {
+  margin: 0;
+  padding: 0;
+}
+
+.social-icon li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: top;
+  transition: all 0.3s;
+}
+
+.social-icon:hover li:not(:hover) {
+  opacity: 0.65;
+}
+
+.social-icon-link {
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  margin-right: 15px;
+}
+
+.social-icon-link:hover {
+  color: var(--primary-color);
+}
+
+
+/*---------------------------------------
+  RESPONSIVE STYLES               
+-----------------------------------------*/
+@media screen and (max-width: 1180px) {
+  h1 {
+    font-size: 62px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  h1 {
+    font-size: 56px;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    font-size: 26px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 18px;
+  }
+
+  .site-header,
+  .section-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+
+  .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  .navbar-nav .nav-link {
+    padding-top: 5px;
+    padding-bottom: 10px;
+  }
+
+  #BookingModal .modal-content {
+    padding-bottom: 200px;
+  }
+
+  
+}
+
+
+
