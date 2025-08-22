@@ -14,8 +14,7 @@ There are two key touchpoints to consider – the mobile device and digital sign
 
 Responses to the brief is not be about replacing ALL existing physical wayfinding markers currently in the campus. Instead, the proposal should be seen as a complementary digital system that enhances and resonates with the current visitor experience in terms of efficiency, comfort, and community. 
 
-The outcomes (details below) are a Figma interactive mobile application prototype, along with relevant site-specific digital signage Figma mockups designed in a visually and interactively consistent manner. into a cooking class, where they can participate and receive feedback on their
-progress.
+The outcomes (details below) are a Figma interactive mobile application prototype, along with relevant site-specific digital signage Figma mockups designed in a visually and interactively consistent manner.
 
 <details><summary>Useful Links</summary>
 
@@ -23,5 +22,6 @@ Figma: [NOOK work space](https://www.figma.com/design/JtxJTxJmJ8nsZFgmIA1eAq/NOO
 
 Figma: [NOOK Presentation](https://www.figma.com/slides/KBgKU273LCRYOTG7vPQYLm/CDS2001_UX_FINAL_PRESENTATION--Copy-?node-id=1-242&t=hJOISWOTQ7MzjAYp-1)
 </details>
+
 
 
