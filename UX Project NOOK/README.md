@@ -1,4 +1,4 @@
-# Prep'd Cooking Class App
+# NOOK app
 **Individual and Group Tasks**
 
 **Project Overview:**
@@ -23,3 +23,4 @@ Figma: [NOOK work space](https://www.figma.com/design/JtxJTxJmJ8nsZFgmIA1eAq/NOO
 
 Figma: [NOOK Presentation](https://www.figma.com/slides/KBgKU273LCRYOTG7vPQYLm/CDS2001_UX_FINAL_PRESENTATION--Copy-?node-id=1-242&t=hJOISWOTQ7MzjAYp-1)
 </details>
+
